@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/accueil1"/>
+
+        <Button
+            style="@style/HomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/accueil2"
+
+            android:text="@string/home_button_top"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:onClick="showRestaurant"
+           style="@style/HomeButton"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/accueil3"
+           android:text="@string/home_button_restaurant"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="showHotel"
+            style="@style/HomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/accueil4"
+            android:text="@string/home_button_hotel"/>
+    </LinearLayout>
+</LinearLayout>

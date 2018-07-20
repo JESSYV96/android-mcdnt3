@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guide</string>
+
+    <string name="home_button_top">Hotel restaurant, Find the best hotel and restaurant</string>
+    <string name="home_button_restaurant">BOOK RESTAURANT</string>
+    <string name="home_button_hotel">BOOK HOTEL</string>
+
+</resources>

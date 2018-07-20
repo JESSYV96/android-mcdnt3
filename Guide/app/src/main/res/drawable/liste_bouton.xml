@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- !!! Fichier fonctionne de haut en bas !!! -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/liste_bouton_on" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/liste_bouton_off"></item>
+
+</selector>

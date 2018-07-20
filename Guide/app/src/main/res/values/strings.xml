@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guide</string>
+
+    <string name="home_button_top">Hôtel resto,  retrouvez les meilleurs hôtels et restaurants</string>
+    <string name="home_button_restaurant">RESERVER \nUN RESTAURANT</string>
+    <string name="home_button_hotel">RESERVER \nUN HOTEL</string>
+
+</resources>
